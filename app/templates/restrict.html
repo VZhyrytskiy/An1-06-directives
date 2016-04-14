@@ -1,0 +1,19 @@
+<div class="panel-body">
+	<h5>Директива как элемент</h5>
+	<unordered-list list-source="products" list-property="price | currency" />
+</div>
+
+<div class="panel-body">
+	<h5>Директива как атрибут</h5>
+	<div unordered-list="products" list-property="price | currency"></div>
+</div>
+
+<div class="panel-body">
+	<h5>Директива как класс</h5>
+	<div class="unordered-list: products" list-property="price | currency"></div>
+</div>
+
+<div class="panel-body">
+	<h5>Директива как комментарий</h5>
+	<!-- directive: unordered-list products -->
+</div>
