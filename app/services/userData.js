@@ -13,11 +13,12 @@
 		};
 
 		return {
-			data: data,
-			getCity: getCity
+			data,
+			getCity
 		};
 
 		function getCity(name) {
+			console.log(name);
 			return name == "Vitaliy" ? "Kiev" : "Unknown";
 		}
 	}
